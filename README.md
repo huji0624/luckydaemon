@@ -6,7 +6,7 @@ a python daemon wrapper.
 2.create a daemon program.
 
 
-<code>  
+<pre>  
   #/usr/bin/python
 
 from luckydaemon.appshell import Appshell
@@ -18,4 +18,4 @@ class SomeDaemonApp(Appshell):
 pt = SomeDaemonApp()
 pt.start()
 
- </code>
+ </pre>
