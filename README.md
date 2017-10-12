@@ -4,7 +4,9 @@ a python daemon wrapper.
 1.clone luckydaemon to your dir.
 
 2.create a daemon program.
-<code>
+
+
+<code>  
   #/usr/bin/python
 
 from luckydaemon.appshell import Appshell
